@@ -1,4 +1,4 @@
-package Vector;
+package seminar01;
 
 public class Vector {
     private Integer x;

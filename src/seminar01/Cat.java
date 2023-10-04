@@ -27,6 +27,10 @@ public class Cat extends Animal {
         this.color = color;
     }
 
+    /**
+     * @apiNote set age
+     * @param age
+     */
     public void setAge(Integer age) {
         if (age >= 0 && age < 20) {
             this.age = age;

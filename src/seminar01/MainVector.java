@@ -1,8 +1,6 @@
 package seminar01;
 
 
-import Vector.Vector;
-
 public class MainVector {
     public static void main(String[] args) {
         Vector one = new Vector(3,6,8);
