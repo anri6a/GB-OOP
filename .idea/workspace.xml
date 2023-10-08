@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8702b01d-87fc-4fef-afcd-e9e049ce7a99" name="Changes" comment="HW1 with Product, Category, Basket, User">
-      <change afterPath="$PROJECT_DIR$/src/HW02/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Elive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/ParticipantMoveble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Treadmil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW02/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/HomeCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Animals/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02CatDog/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02CatDog/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02CatDog/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02CatDog/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/Bycicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/Skateboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar02Human/TransportMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8702b01d-87fc-4fef-afcd-e9e049ce7a99" name="Changes" comment="HW02 done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696429558493</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW02 done">
+      <created>1696798843543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696798843543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +192,8 @@
     <MESSAGE value="seminar 1 all tasks" />
     <MESSAGE value="try with //todo comments" />
     <MESSAGE value="HW1 with Product, Category, Basket, User" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW1 with Product, Category, Basket, User" />
+    <MESSAGE value="HW02 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW02 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
