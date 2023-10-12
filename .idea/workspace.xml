@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8702b01d-87fc-4fef-afcd-e9e049ce7a99" name="Changes" comment="HW02 done" />
+    <list default="true" id="8702b01d-87fc-4fef-afcd-e9e049ce7a99" name="Changes" comment="HW02 done">
+      <change afterPath="$PROJECT_DIR$/src/seminar03Calender/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Calender/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Fruts/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Fruts/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/AbstractGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/CharGameEN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/CharGameRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/NumberGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03Game/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,12 +56,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="seminar03Game" />
       <recent name="seminar02Human" />
       <recent name="HW01" />
       <recent name="Vector" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HW02.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HW02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW02.Main" />
       <module name="GB-OOP" />
@@ -60,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW01.Main" />
+      <option name="MAIN_CLASS_NAME" value="seminar03Game.Main" />
       <module name="GB-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW01.*" />
+          <option name="PATTERN" value="seminar03Game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar02CatDog.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar02CatDog.Main" />
-      <module name="GB-OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar02CatDog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="seminar02Human.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar02Human.Main" />
       <module name="GB-OOP" />
@@ -111,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar03Fruts.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar03Fruts.Main" />
+      <module name="GB-OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar03Fruts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.seminar03Fruts.Main" />
         <item itemvalue="Application.HW02.Main" />
         <item itemvalue="Application.seminar02Human.Main" />
         <item itemvalue="Application.seminar02Animals.Main" />
-        <item itemvalue="Application.seminar02CatDog.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696798843543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW02 done">
+      <created>1696799505986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696799505986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +228,13 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="game.getGameStatus()" language="JAVA" />
+        <watch expression="game.getGameStatus()" language="JAVA" />
+        <watch expression="(game.getGameStatus() != GameStatus.WIN || game.getGameStatus() != GameStatus.LOSE)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
